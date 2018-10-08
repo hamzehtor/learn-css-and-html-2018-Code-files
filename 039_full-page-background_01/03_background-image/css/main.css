@@ -1,0 +1,31 @@
+
+html{
+  /* border: 10px solid red; */
+}
+body{
+  /* border: 10px solid blue; */
+}
+
+#idx-atf{
+  /* layout */
+  height: 100vh;
+  display: flex;
+  /* flex-flow: row nowrap; */
+  justify-content: center;
+  align-items: center;
+  /* background */
+  background-color: rgb(117, 130, 142);
+  background-image: url("../img/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+  background-attachment: fixed;
+}
+.idx-center{
+  display: flex;
+  /* flex-flow: column nowrap; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

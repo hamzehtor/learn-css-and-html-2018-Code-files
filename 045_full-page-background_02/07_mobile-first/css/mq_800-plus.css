@@ -1,0 +1,50 @@
+header {
+    justify-content: space-between;
+}
+header div, header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 0.5rem;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* TEMPORARY */
+    /* background-color: red; */
+    /* border: 3px solid hotpink; */
+    align-items: center;
+}
+header div a{
+  display: flex;
+  align-items: center;
+}
+.idx-hdr-svg{
+  width: 70px;
+  height: 30px;
+  fill: currentColor;
+  padding: 3px 0;
+  /* border: 3px solid blue; */
+
+}
+header div{
+  justify-content: flex-start;
+}
+header svg{
+  display: flex;
+}
+#idx-atf {
+    background-image: url("../img/background-photo.jpg");
+}
+
+#idx-atf > div {
+    height: 50vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    margin-top: .4rem;
+}

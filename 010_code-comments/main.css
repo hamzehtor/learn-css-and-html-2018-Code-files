@@ -1,0 +1,4 @@
+/* a border for all img tags */
+img {
+    border: 10px groove orange;
+}

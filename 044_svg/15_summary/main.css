@@ -1,0 +1,51 @@
+
+body{
+  font-size: 8rem;
+}
+fieldset {
+    border: 2px solid black;
+    margin: 30px;
+}
+
+legend {
+    font-size: 2rem;
+}
+
+img {
+    width: 12rem;
+}
+
+.c0 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.c1 {
+    width: 8rem;
+    height: 8rem;
+    fill: red;
+}
+
+.c1:hover {
+    fill: black;
+}
+
+.c2 {
+    width: 12rem;
+    height: 12rem;
+    fill: blue;
+    stroke: black;
+}
+
+.c2:hover {
+    fill: goldenrod;
+    stroke: red;
+    stroke-width: 2px;
+}
+.c6{
+  fill: green;
+  stroke: blue;
+  stroke-width: 2px;
+  width: 2em;
+  height: 2em;
+}
