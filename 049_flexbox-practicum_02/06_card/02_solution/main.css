@@ -9,6 +9,7 @@ html {
     font-size: 1vw;
     font-family: Raleway, Helvetica, sans-serif;
     color: #57727C;
+    background-color: skyblue;
 }
 
 #atf {
@@ -24,7 +25,8 @@ html {
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(202, 208, 210);
-    border-radius: 4px;
+    background-color: rgb(9, 39, 219);
+    border-radius: 10px;
     width: 27%;
 }
 
@@ -40,6 +42,7 @@ html {
     text-align: center;
     background-color: #EEF3F5;
     border-top: 1px solid #D7DBDD;
+    background-color: rgb(0, 255, 198);
     margin-top: 1.6rem;
     padding: 1.7rem;
 }
@@ -58,32 +61,10 @@ span {
     width: 1em;
     height: 1em;
     fill: currentColor;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .icon-mas {
     color: rgb(188, 210, 218);
     font-size: 20rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -10,6 +10,44 @@ html {
     font-size: 2vw;
     background-color: rgb(2, 247, 234);
 }
+#fsdb{
+  display: none;
+}
+header{
+  height: 5vh;
+  /* padding: 0 0.2rem; */
+  /* border: 5px solid hotpink; */
+  background-color: rgb(99, 99, 101);
+  /* arrange content: */
+  display: flex;
+  align-items: center;
+}
+label:hover .rot{
+  transform: rotate(58deg);
+  top: 13.5px;
+}
+label:hover .rot1{
+  transform: rotate(-58deg);
+  bottom: 13.5px;
+}
+
+header label{
+  /* arrange content: */
+  border-right: 2px solid white;
+  width: 2rem;
+  height: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+header span {
+  display: inline-block;
+  position: relative;
+  width: 1rem;
+  border: 2px solid rgb(246, 237, 240);
+  border-radius: 100%;
+}
 
 #sidebar {
     height: 100vh;
@@ -20,6 +58,9 @@ html {
     /* format */
     border-right: 1px solid #D7DBDD;
     width: fit-content; /*the width*/
+    /* style for hiding */
+    position: relative;
+    left: -10rem;
 }
 
 .sidebar-child {
@@ -52,4 +93,11 @@ button {
 
 button:hover {
     background-color: black;
+}
+#fsdb:checked ~ #sidebar{
+  left: 0;
+}
+.transform{
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }

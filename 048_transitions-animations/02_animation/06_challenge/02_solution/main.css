@@ -8,33 +8,20 @@ animation-direction: normal
 animation-fill-mode: none
 animation-play-state: running
 */
-
-html {
-    font-size: 1vw;
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 1rem;
+  animation-name: yourname;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
-
-html, body {
-    padding: 0;
-    margin: 0;
-    height: 100%
-}
-
-body {
-    color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-p {
-    animation-name: grow-text;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes grow-text {
-    0% { font-size: 1rem; }
-    100%   { font-size: 17rem; }
+@keyframes yourname {
+  0%{font-size: 1rem;}
+  100%{font-size: 20rem;}
 }

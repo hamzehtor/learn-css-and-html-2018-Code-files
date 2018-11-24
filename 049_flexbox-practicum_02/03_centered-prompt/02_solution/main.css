@@ -8,6 +8,7 @@ html, body, div, h1, h2, button {
 html {
     font-size: 1vw;
     color: #86969C;
+    background-color: rgb(7, 32, 161);
 }
 
 #atf {
@@ -35,7 +36,7 @@ button {
     padding: 1rem 3rem;
     font-size: 2rem;
     color: #FFF;
-    background-color: #4EBBE4;
+    background-color: deepskyblue;
     border: 1px solid #16A2D7;
     border-radius: 4px;
     cursor: pointer;
@@ -44,7 +45,8 @@ button {
 /* SMILE */
 
 .icon {
-    width: 1em; height: 1em;
+    width: 1em;
+    height: 1em;
     fill: currentColor;
 }
 
@@ -53,19 +55,3 @@ button {
     font-size: 10rem;
     margin-bottom: .5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

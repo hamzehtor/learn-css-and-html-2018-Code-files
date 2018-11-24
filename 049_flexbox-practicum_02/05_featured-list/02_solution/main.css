@@ -9,6 +9,7 @@ html {
     font-size: 1vw;
     font-family: Raleway, Helvetica, sans-serif;
     color: rgb(134, 150, 156);
+    background-color: skyblue;
 }
 
 #atf {
@@ -25,6 +26,7 @@ html {
     justify-content: center;
     align-items: center;
     max-width: 65%;
+    background-color: rgb(15, 40, 226);
     /* format */
     padding: 4rem;
     border: 1px solid rgb(188, 210, 218);
